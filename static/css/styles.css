@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Navbar brand */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    color: #333; /* Default link color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Link color on hover */
+}
+
+/* Active link */
+.navbar-nav .nav-item.active .nav-link {
+    color: #007bff; /* Active link color */
+}
+
+.grid-container{
+    display: inline-grid;
+    padding: 50px;
+}
+
+.grid-item {
+    width: 30%;
+    display: inline-grid;
+}
